@@ -5,7 +5,7 @@
     "description": "Built a responsive news app using React.js, fetching data from a third-party API to display real-time updates on sports, entertainment, and health. Implemented state management using React hooks",
     "skills": ["React", "Express"],
     "demo": "",
-    "source": "https://github.com/Tapan-Bhakhar/newsApp"
+    "source": "https://github.com/tapanbhakhar27/newsApp"
   },
   {
     "title": "Inotebook",
@@ -13,15 +13,15 @@
     "description": "Created a responsive note-taking app using the MERN stack. Implemented secure login with JWT and added features for creating, editing, and deleting notes. Used React Context API for state management.",
     "skills": ["React", "Express", "Node", "MongoDb"],
     "demo": "",
-    "source": "https://github.com/Tapan-Bhakhar/iNotebook"
+    "source": "https://github.com/tapanbhakhar27/iNotebook"
   },
   {
     "title": "TicTacToe Game",
     "imageSrc": "projects/project.png",
     "description": "Tic-Tac-Toe a classic paper-pencil game played between two players, typically using 3x3 grid, using HTML, CSS, Javascript.",
     "skills": ["Javasccript", "React"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/Tapan-Bhakhar/Tic-Tac-Toe"
+    "demo": "",
+    "source": "https://github.com/tapanbhakhar27/Tic-Tac-Toe"
   },
   {
     "title": "Vedriti Pharmacy",
@@ -29,15 +29,15 @@
     "description": "Created secure and robust RESTful APIs to manage user data, orders, inventory and complex business logic across five different user roles. Implemented JWT authentication and Firebase integration for real-time updates and notifications.",
     "skills": ["Node.js", "PostgreSQL", "JWT", "Firebase", "RESTful API"],
     "demo": "",
-    "source": ""
+    "source": "https://github.com/tapanbhakhar27"
   },
   {
     "title": "HRMS Engineers Hut",
     "imageSrc": "projects/hrms.png",
     "description": "Developed comprehensive RESTful APIs for user management with role-based access control (Admin, Management, User). Constructed reusable UI components in Next.js and implemented seamless API integration for efficient data flow between frontend and backend services.",
     "skills": ["NestJS", "MongoDB", "JWT", "Next.js", "React", "TypeScript"],
-    "demo": "",
-    "source": ""
+    "demo": "https://hrms.engineershut.com/",
+    "source": "https://github.com/tapanbhakhar27"
   },
   {
     "title": "Jorshor Music App",
@@ -45,6 +45,6 @@
     "description": "Developed comprehensive RESTful APIs for a music streaming platform with multi-tier user management system. Implemented secure authentication and authorization ensuring different user roles (Super Admin, Admin, White Label, Producer, Artist, User) had access only to authorized data and endpoints.",
     "skills": ["NestJS", "PostgreSQL", "JWT", "Next.js", "React", "TypeScript"],
     "demo": "",
-    "source": ""
+    "source": "https://github.com/tapanbhakhar27"
   }
 ]
