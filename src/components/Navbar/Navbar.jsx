@@ -38,6 +38,16 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1KLzJNMlzB5Knv3oqxVnODu8_cBOxuHot/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.resumeLink}
+            >
+              View Resume
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
