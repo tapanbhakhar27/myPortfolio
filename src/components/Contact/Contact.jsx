@@ -20,11 +20,34 @@ export const Contact = () => {
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/tapanbhakhar-27102003-tpn/">Tapan Bhakhar</a>
+          <a
+            href="https://www.linkedin.com/in/tapanbhakhar-27102003-tpn/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tapan Bhakhar
+          </a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Tapan-Bhakhar">Tapan-Bhakhar</a>
+          <a
+            href="https://github.com/tapanbhakhar27"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            tapanbhakhar27
+          </a>
+        </li>
+        <li className={styles.link}>
+          {/* <img src={getImageUrl("contact/resumeIcon.png")} alt="Resume icon" /> */}
+          <a
+            href="https://drive.google.com/file/d/1KLzJNMlzB5Knv3oqxVnODu8_cBOxuHot/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.resumeLink}
+          >
+            View Resume
+          </a>
         </li>
       </ul>
     </footer>
