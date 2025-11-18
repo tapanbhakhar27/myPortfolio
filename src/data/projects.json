@@ -22,5 +22,29 @@
     "skills": ["Javasccript", "React"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Tapan-Bhakhar/Tic-Tac-Toe"
+  },
+  {
+    "title": "Vedriti Pharmacy",
+    "imageSrc": "projects/vedriti-pharmacy.png",
+    "description": "Created secure and robust RESTful APIs to manage user data, orders, inventory and complex business logic across five different user roles. Implemented JWT authentication and Firebase integration for real-time updates and notifications.",
+    "skills": ["Node.js", "PostgreSQL", "JWT", "Firebase", "RESTful API"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "HRMS Engineers Hut",
+    "imageSrc": "projects/hrms.png",
+    "description": "Developed comprehensive RESTful APIs for user management with role-based access control (Admin, Management, User). Constructed reusable UI components in Next.js and implemented seamless API integration for efficient data flow between frontend and backend services.",
+    "skills": ["NestJS", "MongoDB", "JWT", "Next.js", "React", "TypeScript"],
+    "demo": "",
+    "source": ""
+  },
+  {
+    "title": "Jorshor Music App",
+    "imageSrc": "projects/jorshor.png",
+    "description": "Developed comprehensive RESTful APIs for a music streaming platform with multi-tier user management system. Implemented secure authentication and authorization ensuring different user roles (Super Admin, Admin, White Label, Producer, Artist, User) had access only to authorized data and endpoints.",
+    "skills": ["NestJS", "PostgreSQL", "JWT", "Next.js", "React", "TypeScript"],
+    "demo": "",
+    "source": ""
   }
 ]

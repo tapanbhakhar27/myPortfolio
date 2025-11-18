@@ -4,31 +4,19 @@
 .container {
   display: flex;
   flex-direction: column;
-  border-radius: 16px;
-  background: linear-gradient(
-    145deg,
-    rgba(87, 108, 188, 0.15) 0%,
-    rgba(19, 42, 83, 0.3) 100%
-  );
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  padding: 24px;
-  width: 380px;
-  height: 520px;
-  transition: all 0.4s ease;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  width: 345px;
+  height: 480px;
+  transition: all 0.3s ease;
   position: relative;
 }
 
 .container:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 48px rgba(74, 158, 255, 0.2);
-  border-color: rgba(74, 158, 255, 0.3);
-  background: linear-gradient(
-    145deg,
-    rgba(87, 108, 188, 0.25) 0%,
-    rgba(19, 42, 83, 0.4) 100%
-  );
+  transform: translateY(-5px);
+  box-shadow: 0 20px 20px 0 #04152d;
 }
 
 .image {
