@@ -1,10 +1,30 @@
 [
   {
-    "role": "T&P Coordinator",
-    "organisation": "Indus University",
-    "startDate": "Jun, 2024",
+    "role": "Full Stack Developer",
+    "organisation": "Engineers Hut",
+    "startDate": "May, 2024",
     "endDate": "Present",
-    "experiences": ["Coordinated placement drive", "Managed and guided students through the placement process"],
-    "imageSrc": "history/iu.png"
+    "experiences": [
+      "Developed and maintained robust RESTful APIs using NestJS and TypeScript",
+      "Implemented secure authentication and authorization using JWT and RBAC",
+      "Built reusable frontend components using Next.js and React",
+      "Integrated backend APIs with frontend UI and optimized data flow",
+      "Collaborated with designers and backend teams to deliver end-to-end features"
+    ],
+    "imageSrc": "history/engineers-hut.png"
+  },
+  {
+    "role": "Full Stack Developer Intern",
+    "organisation": "Engineers Hut",
+    "startDate": "Dec, 2024",
+    "endDate": "May, 2025",
+    "experiences": [
+      "Contributed to backend module development using NestJS and TypeScript",
+      "Worked with SQL and NoSQL databases, designing schemas and optimizing data models",
+      "Developed responsive frontend pages using Next.js and TailwindCSS",
+      "Assisted in debugging, testing, and improving application performance",
+      "Participated in code reviews to enhance code quality"
+    ],
+    "imageSrc": "history/engineers-hut.png"
   }
 ]

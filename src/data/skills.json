@@ -1,30 +1,50 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
   },
   {
-    "title": "JavaScript",
-    "imageSrc": "skills/js.png"
+    "title": "NestJS",
+    "imageSrc": "skills/nestjs.png"
   },
   {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "title": "Next.js",
+    "imageSrc": "skills/nextjs.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Sql",
-    "imageSrc": "skills/sql.png"
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png"
+  },
+  {
+    "title": "RabbitMQ",
+    "imageSrc": "skills/rabbitmq.png"
   }
 ]

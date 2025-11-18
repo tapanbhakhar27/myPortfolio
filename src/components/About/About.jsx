@@ -17,29 +17,33 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Full-Stack Developer</h3>
               <p>
-              I love creating websites that are easy to use and look great on any device. I am skilled in both front and back end development.
+                I specialize in building scalable web applications with 1 year
+                of professional experience. I work with Next.js and React on the
+                frontend, creating responsive and user-friendly interfaces.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Backend Specialist</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                I develop robust RESTful APIs using NestJS and Node.js,
+                following MVC architecture. I implement secure authentication
+                with JWT and work with both SQL and NoSQL databases.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Code icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Modern Tech Stack</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I'm proficient in TypeScript, PostgreSQL, MongoDB, and modern
+                tools like TailwindCSS. I focus on clean code, performance
+                optimization, and delivering end-to-end features.
               </p>
             </div>
           </li>
