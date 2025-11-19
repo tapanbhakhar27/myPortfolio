@@ -44,21 +44,141 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: all 0.3s ease;
 }
 
+.link a:hover {
+  color: #4a9eff;
+}
+
+.link img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.resumeLink {
+  background: linear-gradient(135deg, #4a9eff 0%, #357abd 100%);
+  padding: 12px 28px !important;
+  border-radius: 8px;
+  font-weight: 600 !important;
+  border: 1px solid rgba(74, 158, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.resumeLink:hover {
+  background: linear-gradient(135deg, #5fadff 0%, #4a9eff 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 158, 255, 0.4);
+  color: #fff !important;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 48px 8%;
+  }
+
+  .text h2 {
+    font-size: 60px;
+  }
+
+  .text p {
+    font-size: 32px;
+  }
+
+  .link a {
+    font-size: 24px;
+  }
+
+  .link img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Mobile */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 40px;
+    padding: 40px 6%;
+    margin-top: 80px;
   }
 
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  .text h2 {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 24px;
+    letter-spacing: 1px;
   }
 
   .links {
     align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .link {
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .link a {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-break: break-word;
+  }
+
+  .link img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+
+  .resumeLink {
+    padding: 10px 24px !important;
+    font-size: 18px !important;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 32px 5%;
+    margin-top: 60px;
+  }
+
+  .text h2 {
+    font-size: 36px;
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  .link a {
+    font-size: 16px;
+  }
+
+  .link img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .resumeLink {
+    padding: 8px 20px !important;
+    font-size: 16px !important;
   }
 }
