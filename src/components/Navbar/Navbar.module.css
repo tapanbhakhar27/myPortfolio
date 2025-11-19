@@ -15,8 +15,12 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  transition: color 0.3s ease;
 }
 
+.title:hover {
+  color: #4a9eff;
+}
 
 .menuBtn {
   display: none;
@@ -30,53 +34,210 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  align-items: center;
 }
 
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
+.menuItems a:hover {
+  color: #4a9eff;
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #4a9eff;
+  transition: width 0.3s ease;
+}
+
+.menuItems a:hover::after {
+  width: 100%;
+}
+
+.resumeLink {
+  /* Same style as other menu items */
+  font-size: 25px !important;
+  color: var(--color-text) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+}
+
+.resumeLink:hover {
+  color: #4a9eff !important;
+}
+
+.resumeLink::after {
+  content: "" !important;
+  position: absolute !important;
+  width: 0 !important;
+  height: 2px !important;
+  bottom: -5px !important;
+  left: 0 !important;
+  background-color: #4a9eff !important;
+  transition: width 0.3s ease !important;
+}
+
+.resumeLink:hover::after {
+  width: 100% !important;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    margin: 0 8%;
+    padding-top: 48px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .menuItems {
+    gap: 32px;
+  }
+
+  .menuItems a {
+    font-size: 20px;
+  }
+
+  .resumeLink {
+    padding: 8px 20px !important;
+    font-size: 20px !important;
+  }
+}
+
+/* Mobile */
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 40px;
+    margin: 0 6%;
+  }
+
+  .title {
+    font-size: 24px;
   }
 
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
+    margin-right: 6%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
+    top: 40px;
   }
 
   .menuBtn {
     display: block;
     cursor: pointer;
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+  }
+
+  .menuBtn:hover {
+    transform: scale(1.1);
   }
 
   .menuItems {
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    border-radius: 10px;
+    gap: 16px;
+    border-radius: 12px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 0.95) 0%,
       rgba(25, 55, 109, 1) 100%
     );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 28px 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 200px;
+  }
+
+  .menuItems a {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .menuItems a::after {
+    bottom: -3px;
   }
 
   .menuOpen {
     display: flex;
     z-index: 1;
+    animation: slideDown 0.3s ease;
+  }
+
+  .resumeLink {
+    font-size: 18px !important;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding-top: 32px;
+    margin: 0 5%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .menu {
+    margin-right: 5%;
+    top: 32px;
+  }
+
+  .menuBtn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .menuItems {
+    padding: 24px 32px;
+    gap: 14px;
+    min-width: 180px;
+  }
+
+  .menuItems a {
+    font-size: 16px;
+    padding: 6px 0;
+  }
+
+  .resumeLink {
+    font-size: 16px !important;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
